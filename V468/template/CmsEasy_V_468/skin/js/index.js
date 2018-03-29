@@ -1,0 +1,2 @@
+$(document).ready(function(){var _width=$(window).width();if(_width<768){}else{$(".one").mouseover(function(){$(".menu-bg").stop();$(".menu-bg").slideDown(200);});$(".menu1").mouseleave(function(){$(".menu-bg").stop();$(".menu-bg").slideUp(200);});$(".one").mouseover(function(){$(this).children(".menu2").stop();$(this).children(".menu2").slideDown(200);});$(".one").mouseleave(function(){$(this).children(".menu2").stop();$(this).children(".menu2").slideUp(200);});}
+$("#backToTop").click(function(){$("html,body").animate({scrollTop:0},500);});});
